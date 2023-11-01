@@ -1,0 +1,21 @@
+Navigate to URL https://dev.momobil.id/
+
+1. button_MobilBaru 
+//span[text()='Mobil Baru']
+--> menggunakan tag //span karena tag html yang digunakan adalah span dan xpath ini digunakan untuk menuju ke text Mobil Baru.
+
+2. label_AturUlang 
+//p[text()='Atur Ulang']
+--> menggunakan tag //p karena tag html yang digunakan adalah p dan xpath ini digunakan untuk mencari text Atur Ulang.
+
+3. texthyperlink_DAIhATSU AYLA D MT 
+//p[text()='jakarta']/ancestor::div[@class='location_wrapper']
+/parent::div[@class='list-detail']/child::p[text()='Otomatis']
+/ancestor::div/preceding-sibling::div/descendant::span[text()='DAIHATSU AYLA D MT']
+--> xpath diatas digunakan untuk mendapatkan lokasi yang ingin dicari, setelah mendapatkan lokasi naik lagi keparentnya untuk bisa mendapatkan kelas list detail, setelah itu masuk dan cari text "Otomatis"
+setelah itu naik lagi 2 kali menggunakan ancestor untuk bisa mendapatkan Nama mobilnya.
+
+4. texthyperlink_DAIhATSU AYLA D MT2
+//span[@class='loc-dealer']/child::*[text()='${Lokasi}']/ancestor::div/parent::div[@class='list-detail']/child::*[text()='${Jenis}']/ancestor::div/preceding-sibling::div/descendant::span[text()='${Nama}']
+--> ini digunakan untuk menggunakan parameterize xpath. xpath diatas digunakan untuk mendapatkan lokasi yang ingin dicari, setelah mendapatkan lokasi naik lagi keparentnya untuk bisa mendapatkan kelas list detail, setelah itu masuk dan cari text "Otomatis"
+setelah itu naik lagi 2 kali menggunakan ancestor untuk bisa mendapatkan Nama mobilnya.
