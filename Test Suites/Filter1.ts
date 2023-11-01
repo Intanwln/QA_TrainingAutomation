@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Filter1</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>b0f1044c-24fc-4b36-b070-f702f8ec5f53</testSuiteGuid>
+   <testCaseLink>
+      <guid>40db2eba-2d9a-4d11-b4b6-13d7ed6fba80</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Filter1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5f512ef0-72a4-48a9-93e0-3acbaccdce6b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/filter1</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5f512ef0-72a4-48a9-93e0-3acbaccdce6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Lokasi</value>
+         <variableId>dba0285c-806e-4af6-b82a-d9390a740dbd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5f512ef0-72a4-48a9-93e0-3acbaccdce6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Jenis</value>
+         <variableId>76529882-3371-4db5-9308-7ba8228e03fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5f512ef0-72a4-48a9-93e0-3acbaccdce6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nama</value>
+         <variableId>cfbc3448-5c5d-4a04-8c18-b9228bc9863a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
