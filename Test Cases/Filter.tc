@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>775c9d1f-45ee-4d8a-964d-dc9680f61069</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('filter')</defaultValue>
+      <description></description>
+      <id>531704de-8889-42cc-8e5e-f99d555779cd</id>
+      <masked>false</masked>
+      <name>Lokasi</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('filter')</defaultValue>
+      <description></description>
+      <id>22587b8b-cfe4-4457-9430-d8093201f333</id>
+      <masked>false</masked>
+      <name>Jenis</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('filter')</defaultValue>
+      <description></description>
+      <id>dbee180c-8c99-40d8-bdc8-250785c21d9a</id>
+      <masked>false</masked>
+      <name>Nama</name>
+   </variable>
+</TestCaseEntity>
